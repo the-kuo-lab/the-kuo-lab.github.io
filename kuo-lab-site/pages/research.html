@@ -1,0 +1,119 @@
+---
+layout: default
+title: Research
+---
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Science</span>
+    <h1>Our Research</h1>
+    <p>We use multi-omic tools to understand how pediatric sarcomas — osteosarcoma and Ewing sarcoma — build immunosuppressive tumor microenvironments, and how to disrupt them.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="research-focus">
+
+      <!-- Main content -->
+      <div>
+
+        <div class="focus-block" id="spatial">
+          <span class="eyebrow">Platform 1</span>
+          <h3>Spatial Transcriptomics of OST Lung Metastases</h3>
+          <p>Using 10x Visium, we profile osteosarcoma lung metastases to capture the spatial architecture of the tumor immune microenvironment. NMF-based consensus metaprogram (cMP) discovery across OST, EWS, LUAD, IPF, and normal lung cohorts allows us to identify conserved and tumor-specific programs.</p>
+          <p style="margin-top:0.75rem;">Key findings include a conserved fibrotic CAF program (COL1A1/COL3A1/FBLN family) and an immunosuppressive TAM program (C1QA/C1QB/CD163/CD68) shared across sarcoma and lung disease cohorts.</p>
+          <div class="tag-list">
+            <span class="tag">Visium</span>
+            <span class="tag">NMF / RcppML</span>
+            <span class="tag">CAF programs</span>
+            <span class="tag">TAM polarization</span>
+            <span class="tag">Cross-cohort cMP</span>
+          </div>
+        </div>
+
+        <div class="focus-block" id="scrna">
+          <span class="eyebrow">Platform 2</span>
+          <h3>Single-Cell RNA-seq: Ewing Sarcoma Zebrafish Model</h3>
+          <p>In collaboration with the Goldkorn Lab, we analyze scRNA-seq data from a zebrafish EWS injection model. Our pipeline (Seurat v5 + Harmony + liana) resolves macrophage subclusters, trajectory states, and ligand-receptor interactions. Galectin signaling (lgals9l1→vsir) and the MIF–CD74 axis emerge as dominant macrophage-tumor communication routes.</p>
+          <p style="margin-top:0.75rem;">The MIF–CD74 axis is directly connected to GoldkornLab's published CCR work and forms the central hypothesis of our active grant development.</p>
+          <div class="tag-list">
+            <span class="tag">Seurat v5</span>
+            <span class="tag">Harmony</span>
+            <span class="tag">LIANA</span>
+            <span class="tag">MIF–CD74</span>
+            <span class="tag">Macrophage subclusters</span>
+            <span class="tag">Zebrafish EWS</span>
+          </div>
+        </div>
+
+        <div class="focus-block" id="cfdna">
+          <span class="eyebrow">Platform 3</span>
+          <h3>Cell-Free DNA Epigenomics (FragSeq)</h3>
+          <p>Our FragSeq liquid biopsy platform leverages cfDNA fragmentation patterns to infer chromatin accessibility across immune and tumor cell types. We track promoter fragmentation scores (PFE) at checkpoint loci, immune cell-of-origin signatures, and epigenetic shifts associated with relapse in Ewing sarcoma plasma.</p>
+          <p style="margin-top:0.75rem;">CD74 PFE delta values now allow us to compare immune chromatin states between treatment-naive and treated patient plasma, bridging our TME findings to a non-invasive clinical readout.</p>
+          <div class="tag-list">
+            <span class="tag">FragSeq</span>
+            <span class="tag">cfDNA</span>
+            <span class="tag">EPICseq</span>
+            <span class="tag">PFE scoring</span>
+            <span class="tag">Checkpoint loci</span>
+            <span class="tag">Liquid biopsy</span>
+          </div>
+        </div>
+
+        <div class="focus-block">
+          <span class="eyebrow">Central Hypothesis</span>
+          <h3>MIF–CD74 Axis as an Immunosuppressive Driver</h3>
+          <p>Across platforms, MIF–CD74 signaling emerges as a central mechanism through which Ewing sarcoma establishes an immunosuppressive niche. We hypothesize that MIF-driven MAPK/ERK activation promotes tumor proliferation and VEGF-mediated angiogenesis, culminating in macrophage polarization toward an M2-like, immune-excluded state.</p>
+          <div class="tag-list">
+            <span class="tag">MIF–CD74</span>
+            <span class="tag">MAPK/ERK</span>
+            <span class="tag">VEGF</span>
+            <span class="tag">Immune exclusion</span>
+            <span class="tag">Grant development</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div>
+        <div class="aside-card">
+          <h4>Key Targets &amp; Pathways</h4>
+          <ul>
+            <li>MIF – CD74 signaling</li>
+            <li>THBS2 – fibrotic TME</li>
+            <li>Galectin / TIM-3 checkpoint</li>
+            <li>VEGF-driven immune exclusion</li>
+            <li>C1QA/C1QB TAM program</li>
+            <li>TOX-mediated T cell exhaustion</li>
+            <li>HIF-1α / MIF / VEGF loop</li>
+          </ul>
+        </div>
+
+        <div class="aside-card" style="margin-top:1.5rem;">
+          <h4>Active Collaborations</h4>
+          <ul>
+            <li>Goldkorn Lab (EWS zebrafish model)</li>
+            <li>CHLA / CBDI</li>
+            <li>USC Keck School of Medicine</li>
+          </ul>
+        </div>
+
+        <div class="aside-card" style="margin-top:1.5rem;">
+          <h4>Analytical Tools</h4>
+          <ul>
+            <li>R / Seurat v5 / Quarto</li>
+            <li>RcppML NMF</li>
+            <li>LIANA / NICHES</li>
+            <li>scDblFinder</li>
+            <li>Harmony integration</li>
+            <li>FragSeq / EPICseq</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
