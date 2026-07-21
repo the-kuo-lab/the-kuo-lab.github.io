@@ -1,0 +1,20 @@
+title: The Kuo Lab
+description: Pediatric Sarcoma Tumor Microenvironment Research at Children's Hospital Los Angeles
+baseurl: ""
+url: "https://the-kuo-lab.github.io"
+
+theme: null
+layouts_dir: _layouts
+includes_dir: _includes
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
